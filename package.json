@@ -1,0 +1,35 @@
+{
+  "name": "tinder_clone",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000T\u0000I\u0000N\u0000D\u0000E\u0000R\u0000_\u0000C\u0000L\u0000O\u0000N\u0000E\u0000\r\u0000 \u0000",
+  "main": "backend/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kenikool/TINDER_CLONE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kenikool/TINDER_CLONE/issues"
+  },
+  "homepage": "https://github.com/Kenikool/TINDER_CLONE#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^2.2.0",
+    "cloudinary": "^2.6.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
